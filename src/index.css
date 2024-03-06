@@ -1,0 +1,13 @@
+* { 
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.help {
+  display: none !important;
+}
+
+.hide {
+  display: none !important;
+}
