@@ -1,46 +1,58 @@
-# Getting Started with Create React App
+# Todo App em TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de exemplo de um aplicativo de lista de tarefas (Todo App) desenvolvido em TypeScript.
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+Este aplicativo foi desenvolvido com o intuito de fornecer um exemplo de implementação de um Todo App simples usando TypeScript. Ele permite que os usuários criem, atualizem, marquem como concluídas e removam tarefas da lista.
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **CRUD:** Operações básicas de criar, ler, atualizar e deletar tarefas.
+- **Marcação de tarefas:** Os usuários podem marcar tarefas como concluídas.
+- **Persistência de dados:** Utiliza armazenamento local (local storage) para persistir as tarefas.
+- **Filtragem de tarefas:** Os usuários podem filtrar as tarefas por status (concluídas / não concluídas).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `npm test`
+- TypeScript
+- React.js
+- CSS (estilização básica)
+- Eslint (para linting)
+- Prettier (para formatação de código)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estrutura do Projeto
 
-### `npm run build`
+A estrutura do projeto é organizada da seguinte forma:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **`src/`:** Contém o código-fonte da aplicação.
+  - **`components/`:** Componentes React reutilizáveis.
+  - **`containers/`:** Componentes que representam páginas ou partes maiores da aplicação.
+  - **`utils/`:** Utilitários diversos.
+- **`assets/`:** Contém arquivos estáticos, como imagens e ícones.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone este repositório.
+2. Certifique-se de ter o Node.js instalado.
+3. Instale as dependências com o comando `npm install`.
+4. Inicie a aplicação com `npm start`.
 
-### `npm run eject`
+## Uso
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Adicione tarefas à lista digitando na caixa de entrada e pressionando Enter.
+- Marque tarefas como concluídas clicando no botão de marcação ao lado delas.
+- Remova tarefas clicando no botão de remoção ao lado delas.
+- Utilize os filtros fornecidos para visualizar apenas as tarefas concluídas ou não concluídas.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribuindo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema para relatar bugs ou propor novas funcionalidades. Se desejar contribuir com código, por favor, abra uma pull request.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Licença
 
-## Learn More
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este README serve como um guia básico para entender o projeto e como utilizá-lo.
